@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://simonaslizaitis.github.io/02-happy-weekend/
+Site published at: https://simonaslizaitis.github.io/03-happy-weekend/
 
 Design: [catgirl](./img/design.png)
 
