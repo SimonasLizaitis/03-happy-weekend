@@ -13,128 +13,35 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        body{
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        header{
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        header>img{
-            height: 40px;
-            float: left;
-        }
-        header>nav{
-            float: right;
-            margin-top: 3.8px;
-        }
-        nav>a{
-            display: inline-block;
-            padding: 0.3em;
-            padding-left: 0.7em;
-            padding-right: 0.7em;
-            margin-left: 0.5em;
-            font-family: monospace;
-            font-size: 18px;
-            line-height: 1em;
-            text-decoration: none;
-            color: #3F4371;
-            border: 0.1em solid transparent;
-            border-radius: 0.2em;
-        }
-        nav>a:first-child{
-            margin-left: 0;
-        }
-        nav>a:hover{
-            border-color: #3F4371;
-        }
-        main{
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-        main>div{
-           width: 35%;
-           float: left; 
-        }
-        h1{
-            margin: 0;
-            font-size: 55px;
-            text-transform: uppercase;
-            color: #3F4371;
-        }
-        h1>span{
-          font-size: 45px;  
-        }
-
-        p{
-            font-size: 18px;
-            letter-spacing: 0.05em;
-            line-height: 1.3em;
-            word-spacing: 0.3em;
-        }
-
-        main>div>a{
-            color: #fff;
-            padding: 0.5em;
-            padding-left: 3em;
-            padding-right: 3em;
-            font-size: 20px;
-            text-transform: uppercase;
-            text-decoration: none;
-            background-color: #3F4371;
-            border-radius: 0.3em;
-            display: inline-block;
-            box-shadow: 0px 0.5em 0.2em -0.45em #3F4371;
-            transition: all 1s;
-        }
-        main>div>a:hover{
-            box-shadow: 0px 0.6em 0.4em -0.5em #3F4371;
-        }
-
-        div>div{
-            margin-top: 250px;
-        }
-
-        div>div>a{}
-
-        main>img{
-            width: 65%;
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <header>
-        <img src="./design/logo.png" alt="Logo">
-        <nav>
-            <a style="border-color: #3F4371;" href="#">Home</a>
-            <a href="#">Project</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+    <header class="main-header">
+        <img class="logo" src="./design/logo.png" alt="Logo">
+        <nav class="main-nav">
+            <a class="link" style="border-color: #3F4371;" href="#">Home</a>
+            <a class="link" href="#">Project</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Service</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
     <MAIN>
-        <div>
-            <h1>A happy <span>weekend</span></h1>
-            <p>
+        <div class="left-column">
+            <h1  class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maiores alias laborum eius a hic pariatur rem esse minus ipsa ullam nulla repellendus culpa, adipisci doloribus iste, earum consectetur! Soluta!
             </p>
-            <a href="#">More</a>
-            <div>
-                <a href="#">Ig</a>
-                <a href="#">Tv</a>
-                <a href="#">Fb</a>
+            <a class="btn" href="#">More</a>
+            <div class="socials">
+                <a class="icon" href="#">Ig</a>
+                <a class="icon" href="#">Tv</a>
+                <a class="icon" href="#">Fb</a>
             </div>
         </div>
-        <img src="./design/design.png" alt="Catgirl">
+        <img class="right-column" src="./design/design.png" alt="Catgirl">
     </MAIN>
 </body>
 </html>
