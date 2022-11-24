@@ -13,50 +13,36 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <style>
-        header{
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-
-        header>img{
-            width: 100px;
-            float: left;
-        }
-        nav{
-            float: right;
-        }
-        main{
-            display: inline-block;
-            width: 800px;
-            margin-top: 40px;
-            margin-left: calc(50% - 400px);
-        }
-        main>div{
-           width: 35%;
-           float: left; 
-        }
-        main>img{
-            width: 65%;
-            float: right;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <header>
-        <img src="./design/logo.png" alt="Logo">
-        <nav>
-            LINKS
+    <header class="main-header">
+        <img class="logo" src="./design/logo.png" alt="Logo">
+        <nav class="main-nav">
+            <a class="link active" href="#">Home</a>
+            <a class="link" href="#">Project</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Service</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
-    <MAIN>
-        <div>
-            LEFT CONTENT
+    <main class="main-content">
+        <div class="left-column">
+            <h1  class="main-title">A happy <span>weekend</span></h1>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maiores alias laborum eius a hic pariatur rem esse minus ipsa ullam nulla repellendus culpa, adipisci doloribus iste, earum consectetur! Soluta!
+            </p>
+            <a class="btn" href="#">More</a>
+            <div class="socials">
+                <a class="icon fa fa-instagram" href="#"></a>
+                <a class="icon fa fa-twitter" href="#"></a>
+                <a class="icon fa fa-facebook" href="#"></a>
+            </div>
         </div>
-        <img src="./design/design.png" alt="Catgirl">
-    </MAIN>
+        <img class="right-column" src="./design/design.png" alt="Catgirl">
+    </main>
 </body>
 </html>
